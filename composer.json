@@ -1,0 +1,18 @@
+{
+    "name": "emahmoud/design-pattern-course",
+    "description": "design pattern course",
+    "authors": [
+        {
+            "name": "Eman Mohamed",
+            "email": "eman.mohamed.ka@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "6.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+           "Creational\\": "Creational"
+        }
+    }
+}
