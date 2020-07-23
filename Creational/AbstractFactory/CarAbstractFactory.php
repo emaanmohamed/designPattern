@@ -9,7 +9,7 @@ class CarAbstractFactory
     private $tax = 100000;
     private $price;
 
-    public function __construct()
+    public function __construct($price)
     {
         $this->price = $price;
     }
